@@ -66,9 +66,9 @@ class _HomeScreenState extends State<HomeScreen> {
     String wnr = "";
     if (player1 == "rock" && player2 == "scissors") {
       wnr = "player 1 wins";
-    } else if (player1 == " scissors" && player2 == "paper") {
+    } else if (player1 == "scissors" && player2 == "paper") {
       wnr = "player 1 wins";
-    } else if (player1 == " paper" && player2 == "rock") {
+    } else if (player1 == "paper" && player2 == "rock") {
       wnr = "player 1 wins";
     } else if (player1 == player2) {
       wnr = "draw";
